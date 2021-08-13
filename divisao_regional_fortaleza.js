@@ -1,0 +1,42 @@
+const bairros = ["São Gerardo", "Álvaro Weyne", "Barra do Ceará", "Carlito Pamplona", "Conjunto Beira Rio", "Conjunto dos Bancários", "Conjunto Itaparica", "Conjunto Nova Assunção", "Conjunto Polar", "Colônia", "Cristo Redentor", "Farias Brito", "Floresta", "Goiabeira", "Jacarecanga", "Jardim Guananbara", "Jardim Iracema", "Jardim Petrópolis", "Monte Castelo", "Moura Brasil", "Nossa Senhora das Graças", "Otávio Bomfim", "Pirambu", "Soares Moreno", "Tyrol", "Vila Ellery", "Vila Velha", "Aldeota", "Antônio Diogo", "Caça e Pesca", "Cais do Porto", "Castelo Encantado", "Centro", "Cidade 2000", "Conjunto Santa Terezinha", "Conjunto Ver Atlântico", "Cocó", "Dionísio Torres", "Dunas", "Farol", "Favela do Trilho", "Galiléia", "Guararapes", "Joaquim Távora", "Luciano Cavalcante", "Meireles", "Mucuripe", "Papicu", "Piedade", "Pio XII", "Praia de Iracema", "Praia do Futuro", "Tauape", "Salinas", "Serviluz", "Varjota", "Verdes Mares", "Vicente Pizon", "Amadeu Furtado", "Antônio Bezerra", "Autran Nunes", "Bela Vista", "Bom Sucesso", "Dom Lustosa", "Henrique Jorge", "João XXIII", "Jockei Clube", "Padre Andrade", "Parque Araxá", "Parquêlandia", "Pici", "Presidente Kennedy", "Quintino Cunho", "Rodolfo Teófilo", "Aeroporto", "Benfica", "Bom Futuro", "Couto Fernandes", "Damas", "Demócrito Rocha", "Dendê", "Fátima", "Itaoca", "Itaperi", "Jardim América", "Jardim Bonifácio", "Montese", "Pan Americano", "Parangaba", "Parreão", "Serrinha", "Vila Peri", "Vila União", "Aracapé", "Bom Jardim", "Canindezinho", "Prefeito José Walter", "Conjunto Ceará", "Conjunto Esperança", "Genibaú", "Granja Lisboa", "Granja Portugal", "Ipaumirim", "Jardim  Cearense", "Jardim Jatobá", "Manoel Sátiro", "Maraponga", "Mondubim", "Pantanal", "Parque Jerusálem", "Parque São José", "Parque Santa Rosa", "Parque Santa Cecília", "Parque Santo Amaro", "Parque Veras", "Presidente Vargas", "Siqueira", "Vila Peri", "Aerolândia", "Água Fria", "Alagadiço Novo", "Almirante Tamandaré", "Alto da Balança", "Ancuri", "Bairro B", "Barro Duro", "Barroso", "Boa Vista", "C. VN Tropical", "Cachoeiro T", "Cajazeiras", "Cambeba", "Castelão", "Cidade dos Funcionários", "Conjunto Alvorada", "Conjunto Espianada", "Conjunto Jereissate", "Conjunto Palmeiras", "Conjunto São Cristovão", "Conjunto Tancredo Neves", "Coaçu", "Cofeco", "Curió", "Dias Macedo", "Edson Queiroz", "Guajerú", "Itambé", "Jangurussu", "Jardim Castelão", "Jardim das Oliveiras", "Jardim Itaperi", "Jardim Sumaré", "Jardim União", "João Paulo II", "Lagamar", "Lago Jacarey", "Lagoa Redonda", "Lagoa Sapiranga", "Lagoa Seca", "Mata Galinha", "Messejana", "Pant. Jangu", "Passaré", "Paupina", "Pedras", "Porto das Dunas", "Parque da Paz", "Parque Dois Irmãos", "Parque Iracema", "Parque Itamarati", "Parque Mamoeira", "Parque Manibura", "Parque São Miguel", "Parque Sidrão", "Parque Santa Maria", "Parque Santa Filomena", "Sabiaguaba", "Sapiranga"];
+
+
+function verificar_regiao(bairro){
+    
+    var regional;
+    
+    if(bairro == "São Gerardo" || bairro == "Álvaro Weyne" || bairro == "Barra do Ceará" || bairro == "Carlito Pamplona" || bairro == "Conjunto Beira Rio" || bairro == "Conjunto dos Bancários" || bairro == "Conjunto Itaparica" || bairro == "Conjunto Nova Assunção" || bairro == "Conjunto Polar" || bairro == "Colônia" || bairro == "Cristo Redentor" || bairro == "Farias Brito" || bairro == "Floresta" || bairro == "Goiabeira" || bairro == "Jacarecanga" || bairro == "Jardim Guananbara" || bairro == "Jardim Iracema" || bairro == "Jardim Petrópolis" || bairro == "Monte Castelo" || bairro == "Moura Brasil" || bairro == "Nossa Senhora das Graças" || bairro == "Otávio Bomfim" || bairro == "Pirambu" || bairro == "Soares Moreno" || bairro == "Tyrol" || bairro == "Vila Ellery" || bairro == "Vila Velha"){
+        
+        regional = 1;
+    
+        
+    }else if(bairro == "Aldeota" || bairro == "Antônio Diogo" || bairro == "Caça e Pesca" || bairro == "Cais do Porto" || bairro == "Castelo Encantado" || bairro == "Centro" || bairro == "Cidade 2000" || bairro == "Conjunto Santa Terezinha" || bairro == "Conjunto Ver Atlântico" || bairro == "Cocó" || bairro == "Dionísio Torres" || bairro == "Dunas" || bairro == "Farol" || bairro == "Favela do Trilho" || bairro == "Galiléia" || bairro == "Guararapes" || bairro == "Joaquim Távora" || bairro == "Luciano Cavalcante" || bairro == "Meireles" || bairro == "Mucuripe" || bairro == "Papicu" || bairro == "Piedade" || bairro == "Pio XII" || bairro == "Praia de Iracema" || bairro == "Praia do Futuro" || bairro == "Tauape" || bairro == "Salinas" || bairro == "Serviluz" || bairro == "Varjota" || bairro == "Verdes Mares" || bairro == "Vicente Pizon"){
+        
+        regional = 2;
+    
+        
+    }else if(bairro == "Amadeu Furtado" || bairro == "Antônio Bezerra" || bairro == "Autran Nunes" || bairro == "Bela Vista" || bairro == "Bom Sucesso" || bairro == "Dom Lustosa" || bairro == "Henrique Jorge" || bairro == "João XXIII" || bairro == "Jockei Clube" || bairro == "Padre Andrade" || bairro == "Parque Araxá" || bairro == "Parquêlandia" || bairro == "Pici" || bairro == "Presidente Kennedy" || bairro == "Quintino Cunho" || bairro == "Rodolfo Teófilo"){
+        
+        regional = 3;
+        
+    }else if(bairro == "Aeroporto" || bairro == "Benfica" || bairro == "Bom Futuro" || bairro == "Couto Fernandes" || bairro == "Damas" || bairro == "Demócrito Rocha" || bairro == "Dendê" || bairro == "Fátima" || bairro == "Itaoca" || bairro == "Itaperi" || bairro == "Jardim América" || bairro == "Jardim Bonifácio" || bairro == "Montese" || bairro == "Pan Americano" || bairro == "Parangaba" || bairro == "Parreão" || bairro == "Serrinha" || bairro == "Vila Peri" || bairro == "Vila União"){
+        
+        regional = 4;
+        
+    }else if(bairro == "Aracapé" || bairro == "Bom Jardim" || bairro == "Canindezinho" || bairro == "Prefeito José Walter" || bairro == "Conjunto Ceará" || bairro == "Conjunto Esperança" || bairro == "Genibaú" || bairro == "Granja Lisboa" || bairro == "Granja Portugal" || bairro == "Ipaumirim" || bairro == "Jardim  Cearense" || bairro == "Jardim Jatobá" || bairro == "Manoel Sátiro" || bairro == "Maraponga" || bairro == "Mondubim" || bairro == "Pantanal" || bairro == "Parque Jerusálem" || bairro == "Parque São José" || bairro == "Parque Santa Rosa" || bairro == "Parque Santa Cecília" || bairro == "Parque Santo Amaro" || bairro == "Parque Veras" || bairro == "Presidente Vargas" || bairro == "Siqueira" || bairro == "Vila Peri"){
+        
+        regional = 5;
+    
+    }else if(bairro == "Aerolândia" || bairro == "Água Fria" || bairro == "Alagadiço Novo" || bairro == "Almirante Tamandaré" || bairro == "Alto da Balança" || bairro == "Ancuri" || bairro == "Bairro B" || bairro == "Barro Duro" || bairro == "Barroso" || bairro == "Boa Vista" || bairro == "C. VN Tropical" || bairro == "Cachoeiro T" || bairro == "Cajazeiras" || bairro == "Cambeba" || bairro == "Castelão" || bairro == "Cidade dos Funcionários" || bairro == "Conjunto Alvorada" || bairro == "Conjunto Espianada" || bairro == "Conjunto Jereissate" || bairro == "Conjunto Palmeiras" || bairro == "Conjunto São Cristovão" || bairro == "Conjunto Tancredo Neves" || bairro == "Coaçu" || bairro == "Cofeco" || bairro == "Curió" || bairro == "Dias Macedo" || bairro == "Edson Queiroz" || bairro == "Guajerú" || bairro == "Itambé" || bairro == "Jangurussu" || bairro == "Jardim Castelão" || bairro == "Jardim das Oliveiras" || bairro == "Jardim Itaperi" || bairro == "Jardim Sumaré" || bairro == "Jardim União" || bairro == "João Paulo II" || bairro == "Lagamar" || bairro == "Lago Jacarey" || bairro == "Lagoa Redonda" || bairro == "Lagoa Sapiranga" || bairro == "Lagoa Seca" || bairro == "Mata Galinha" || bairro == "Messejana" || bairro == "Pant. Jangu" || bairro == "Passaré" || bairro == "Paupina" || bairro == "Pedras" || bairro == "Porto das Dunas" || bairro == "Parque da Paz" || bairro == "Parque Dois Irmãos" || bairro == "Parque Iracema" || bairro == "Parque Itamarati" || bairro == "Parque Mamoeira" || bairro == "Parque Manibura" || bairro == "Parque São Miguel" || bairro == "Parque Sidrão" || bairro == "Parque Santa Maria" || bairro == "Parque Santa Filomena" || bairro == "Sabiaguaba" || bairro == "Sapiranga"){
+        
+        regional = 6;
+    
+    }else{
+        
+        regional = "";
+        
+    }
+    
+    
+    return regional;
+}
